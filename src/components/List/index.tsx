@@ -1,15 +1,50 @@
-import { Header, Table, TableHead } from "./styles";
+import { Table, TableHeader, TableRow, TableHead, TableData } from "./styles";
 
 export default function List() {
     return (
-        <>
-            <Table>
-                <Header>
+        <Table>
+            <thead>
+                <TableHeader>
                     <TableHead>Tarefa</TableHead>
                     <TableHead>Descrição</TableHead>
                     <TableHead>Data</TableHead>
-                </Header>
-            </Table>
-        </>
+                </TableHeader>
+            </thead>
+            <tbody>
+                <TableRow>
+                    <TableData>AAA</TableData>
+                    <TableData>AAA</TableData>
+                    <TableData>AAA</TableData>
+                </TableRow><TableRow>
+                    <TableData>AAA</TableData>
+                    <TableData>AAA</TableData>
+                    <TableData>AAA</TableData>
+                </TableRow><TableRow>
+                    <TableData>AAA</TableData>
+                    <TableData>AAA</TableData>
+                    <TableData>AAA</TableData>
+                </TableRow><TableRow>
+                    <TableData>AAA</TableData>
+                    <TableData>AAA</TableData>
+                    <TableData>AAA</TableData>
+                </TableRow><TableRow>
+                    <TableData>AAA</TableData>
+                    <TableData>AAA</TableData>
+                    <TableData>AAA</TableData>
+                </TableRow><TableRow>
+                    <TableData>AAA</TableData>
+                    <TableData>AAA</TableData>
+                    <TableData>AAA</TableData>
+                </TableRow><TableRow>
+                    <TableData>AAA</TableData>
+                    <TableData>AAA</TableData>
+                    <TableData>AAA</TableData>
+                </TableRow><TableRow>
+                    <TableData>AAA</TableData>
+                    <TableData>AAA</TableData>
+                    <TableData>AAA</TableData>
+                </TableRow>
+            </tbody>
+        </Table>
     )
 }

@@ -1,4 +1,3 @@
-
 import List from "./components/List";
 import Main from "./components/Main";
 import NavBar from "./components/NavBar";

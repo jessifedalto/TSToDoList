@@ -2,20 +2,32 @@ import styled from "styled-components";
 
 export const Table = styled.table`
     width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid slategray;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border: 1px solid slategray;
     border-radius: 5px;
 `;
 
-export const Header = styled.tr`
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+export const TableHeader = styled.tr`
+    background-color: #f4f4f4;
 `;
 
 export const TableHead = styled.th`
-    
+    padding: 10px;
+    color: blue;
+    font-weight: bold;  
+    border: 1px solid slategray;
+`;
 
+export const TableRow = styled.tr`
+    &:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+`;
+
+export const TableData = styled.td`
+    padding: 10px;
+    border: 1px solid slategray;
+    color: grey;
+    font-weight: lighter;
 `;

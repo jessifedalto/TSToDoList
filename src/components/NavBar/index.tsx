@@ -12,7 +12,7 @@ export default function NavBar() {
                 <StyledLink to='/'>Home</StyledLink>
                 <StyledLink to='/extract'>Extrato</StyledLink>
                 <StyledLink to='/addPayment'>Adicionar pagamento</StyledLink>
-                <Button buttonTheme={theme} onClick={() => toggleTheme()} children={"CLICA EU"} />
+                <Button buttonTheme={theme} onClick={() => toggleTheme()} children={'./sun.png'} />
             </StyledHeader>
         </>
     )
