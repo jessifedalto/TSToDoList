@@ -1,12 +1,11 @@
 import Main from "../../components/Main";
-import Forms from "./components/Forms";
+import List from "./components/List";
 
-export default function Home() {
-
-    return (
+export default function Extract () {
+    return(
         <>
             <Main>
-                <Forms/>
+                <List/>
             </Main>
         </>
     )

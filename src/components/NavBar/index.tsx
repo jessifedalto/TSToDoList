@@ -11,8 +11,7 @@ export default function NavBar() {
             <StyledHeader>
                 <StyledLink to='/'>Home</StyledLink>
                 <StyledLink to='/extract'>Extrato</StyledLink>
-                <StyledLink to='/addPayment'>Adicionar pagamento</StyledLink>
-                <Button buttonTheme={theme} onClick={() => toggleTheme()} children={'./sun.png'} />
+                <Button buttonTheme={theme} onClick={() => toggleTheme()} children={"Mudar tema"} />
             </StyledHeader>
         </>
     )

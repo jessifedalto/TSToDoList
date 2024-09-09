@@ -9,7 +9,7 @@ export const Table = styled.table`
 `;
 
 export const TableHeader = styled.tr`
-    background-color: #f4f4f4;
+    background-color: #7CD4FC;
 `;
 
 export const TableHead = styled.th`
@@ -29,5 +29,5 @@ export const TableData = styled.td`
     padding: 10px;
     border: 1px solid slategray;
     color: grey;
-    font-weight: lighter;
+    font-weight: bolder;
 `;
